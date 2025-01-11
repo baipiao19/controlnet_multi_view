@@ -416,35 +416,32 @@ class DDPM(pl.LightningModule):
         t = torch.randint(0, self.num_timesteps, (x.shape[0],), device=self.device).long()
         return self.p_losses(x, t, *args, **kwargs)
 
-    def get_input(self, batch, k):   
-        x = batch[k]  # 4 512 512 3
-        if len(x.shape) == 3:
-            x = x[..., None]
-        x = rearrange(x, 'b h w c -> b c h w')
-        x = x.to(memory_format=torch.contiguous_format).float()   # 4 3 512 512
-        return x
-
-    # def get_input(self, batch, k):  # 把
-    #     x = batch[k]
-    #     xa = x[0]
-    #     xb = x[1]
-    #     if len(xa.shape) == 3:
-    #         xa = xa[..., None]
-    #     xa = rearrange(xa, 'b h w c -> b c h w')
-    #     xa = xa.to(memory_format=torch.contiguous_format).float()
-    #     if len(xb.shape) == 3:
-    #         xb = xb[..., None]
-    #     xb = rearrange(xb, 'b h w c -> b c h w')
-    #     xb = xb.to(memory_format=torch.contiguous_format).float()
-    #     x=[]
-    #     x.append(xa)
-    #     x.append(xb)
+    # def get_input(self, batch, k):   
+    #     x = batch[k]  
+    #     if len(x.shape) == 3:
+    #         x = x[..., None]
+    #     x = rearrange(x, 'b h w c -> b c h w')
+    #     x = x.to(memory_format=torch.contiguous_format).float()
     #     return x
+
+    def get_input(self, batch, k):  # 把
+        x = batch[k]
+        xa = x[0]
+        xb = x[1]
+        if len(xa.shape) == 3:
+            xa = xa[..., None]
+        xa = rearrange(xa, 'b h w c -> b c h w')
+        xa = xa.to(memory_format=torch.contiguous_format).float()
+        if len(xb.shape) == 3:
+            xb = xb[..., None]
+        xb = rearrange(xb, 'b h w c -> b c h w')
+        xb = xb.to(memory_format=torch.contiguous_format).float()
+        return xa, xb
     
-    # def shared_step(self, batch):
-    #     x = self.get_input(batch, self.first_stage_key)
-    #     loss, loss_dict = self(x)
-    #     return loss, loss_dict
+    def shared_step(self, batch):
+        x = self.get_input(batch, self.first_stage_key)
+        loss, loss_dict = self(x)
+        return loss, loss_dict
 
     # batch为dataset 
     def training_step(self, batch, batch_idx):
@@ -784,34 +781,41 @@ class LatentDiffusion(DDPM):
     @torch.no_grad()
     def get_input(self, batch, k, return_first_stage_outputs=False, force_c_encode=False,
                   cond_key=None, return_original_cond=False, bs=None, return_x=False):
-        x = super().get_input(batch, k) # 4 3 512 512
+        xa , xb = super().get_input(batch, k)
         if bs is not None:
-            x = x[:bs]
-        x = x.to(self.device)
-        encoder_posterior = self.encode_first_stage(x)
-        z = self.get_first_stage_encoding(encoder_posterior).detach()
+            xa = xa[:bs]
+            xb = xb[:bs]
+        xa = xa.to(self.device)
+        xb = xb.to(self.device)
+        x = [xa, xb]
+        encoder_posterior_a = self.encode_first_stage(xa)
+        za = self.get_first_stage_encoding(encoder_posterior_a).detach()
+        encoder_posterior_b = self.encode_first_stage(xb)
+        zb = self.get_first_stage_encoding(encoder_posterior_b).detach()
+        z= [za, zb]
 
         if self.model.conditioning_key is not None and not self.force_null_conditioning:
             if cond_key is None:
                 cond_key = self.cond_stage_key
             if cond_key != self.first_stage_key:
                 if cond_key in ['caption', 'coordinates_bbox', "txt"]:
-                    xc = batch[cond_key] #
+                    xc = batch[cond_key]  #todo
                 elif cond_key in ['class_label', 'cls']:
                     xc = batch
                 else:
-                    xc = super().get_input(batch, cond_key).to(self.device)
+                    xc_a ,xc_b = super().get_input(batch, cond_key).to(self.device) 
             else:
-                xc = x
+                xc = [xa,xb]
             if not self.cond_stage_trainable or force_c_encode:
                 if isinstance(xc, dict) or isinstance(xc, list):
-                    c = self.get_learned_conditioning(xc)
+                    zhongjian=list(xc[0])
+                    c = self.get_learned_conditioning(list(xc[0])) # todo
                 else:
-                    c = self.get_learned_conditioning(xc.to(self.device))
+                    c = self.get_learned_conditioning(list(xc[0]))
             else:
                 c = xc
             if bs is not None:
-                c = c[:bs]
+                c = c[:bs]  # todo
 
             if self.use_positional_encodings:
                 pos_x, pos_y = self.compute_latent_shifts(batch)
@@ -824,7 +828,7 @@ class LatentDiffusion(DDPM):
             if self.use_positional_encodings:
                 pos_x, pos_y = self.compute_latent_shifts(batch)
                 c = {'pos_x': pos_x, 'pos_y': pos_y}
-        out = [z, c]
+        out = [z, c] # todo
         if return_first_stage_outputs:
             xrec = self.decode_first_stage(z)
             out.extend([x, xrec])
@@ -832,7 +836,7 @@ class LatentDiffusion(DDPM):
             out.extend([x])
         if return_original_cond:
             out.append(xc)
-        return out
+        return out   
 
     @torch.no_grad()
     def decode_first_stage(self, z, predict_cids=False, force_not_quantize=False):
@@ -855,15 +859,15 @@ class LatentDiffusion(DDPM):
         return loss
 
     def forward(self, x, c, *args, **kwargs):
-        t = torch.randint(0, self.num_timesteps, (x.shape[0],), device=self.device).long()
+        t = torch.randint(0, self.num_timesteps, (x[0].shape[0],), device=self.device).long()  # shape [4]
         if self.model.conditioning_key is not None:
             assert c is not None
-            if self.cond_stage_trainable:
+            if self.cond_stage_trainable: # 没执行这个分支
                 c = self.get_learned_conditioning(c)
-            if self.shorten_cond_schedule:  # TODO: drop this option
+            if self.shorten_cond_schedule:  # TODO: drop this option  # 也没执行这个分支
                 tc = self.cond_ids[t].to(self.device)
                 c = self.q_sample(x_start=c, t=tc, noise=torch.randn_like(c.float()))
-        return self.p_losses(x, c, t, *args, **kwargs)
+        return self.p_losses(x, c, t, *args, **kwargs)  # 调用p_losses
 
     def apply_model(self, x_noisy, t, cond, return_ids=False):
         if isinstance(cond, dict):
@@ -901,9 +905,9 @@ class LatentDiffusion(DDPM):
         return mean_flat(kl_prior) / np.log(2.0)
 
     def p_losses(self, x_start, cond, t, noise=None):
-        noise = default(noise, lambda: torch.randn_like(x_start))
-        x_noisy = self.q_sample(x_start=x_start, t=t, noise=noise)
-        model_output = self.apply_model(x_noisy, t, cond)
+        noise = default(noise, lambda: torch.randn_like(x_start[0])) # 随机噪声
+        x_noisy = self.q_sample(x_start=x_start[0], t=t, noise=noise) # 采样
+        model_output = self.apply_model(x_start, x_noisy, t, cond) #  加了x_start参数
 
         loss_dict = {}
         prefix = 'train' if self.training else 'val'

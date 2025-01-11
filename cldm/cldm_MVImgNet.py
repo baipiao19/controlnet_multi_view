@@ -14,7 +14,7 @@ from einops import rearrange, repeat
 from torchvision.utils import make_grid
 from ldm.modules.attention import SpatialTransformer
 from ldm.modules.diffusionmodules.openaimodel import UNetModel, TimestepEmbedSequential, ResBlock, Downsample, AttentionBlock
-from ldm.models.diffusion.ddpm import LatentDiffusion
+from ldm.models.diffusion.ddpm_MVImgNet import LatentDiffusion
 from ldm.util import log_txt_as_img, exists, instantiate_from_config
 from ldm.models.diffusion.ddim import DDIMSampler
 
@@ -281,31 +281,57 @@ class ControlNet(nn.Module):
     def make_zero_conv(self, channels):
         return TimestepEmbedSequential(zero_module(conv_nd(self.dims, channels, channels, 1, padding=0)))
 
-    def forward(self, x, hint, timesteps, context, **kwargs):
+    def forward(self, x, hints, timesteps, context, **kwargs):
         t_emb = timestep_embedding(timesteps, self.model_channels, repeat_only=False)
         emb = self.time_embed(t_emb)
-        # print("shape of hint: ", hint.shape)
-        # print("shape of emb: ", emb.shape)
-        # print("shape of context: ", context.shape)
-        guided_hint = self.input_hint_block(hint, emb, context) # 4 320 64 64
+
+        # guided_hint = self.input_hint_block(hint, emb, context)
+
+        # outs = []
+
+        # h = x.type(self.dtype)
+        # for module, zero_conv in zip(self.input_blocks, self.zero_convs):
+        #     if guided_hint is not None:
+        #         h = module(h, emb, context)
+        #         h += guided_hint
+        #         guided_hint = None  # only add the hint once
+        #     else:
+        #         h = module(h, emb, context)
+        #     outs.append(zero_conv(h, emb, context))
+
+        # h = self.middle_block(h, emb, context)
+        # outs.append(self.middle_block_out(h, emb, context))
+
+        # return outs
+        print("shape of hints[0]: ", hints[0].shape)
+        print("shape of emb: ", emb.shape)
+        print("shape of context: ", context.shape)
+
+        guided_hint_0 = self.input_hint_block(hints[0], emb, context) 
 
         outs = []
 
         h = x.type(self.dtype)
+        # 通过输入块和零卷积块处理输入
         for module, zero_conv in zip(self.input_blocks, self.zero_convs):
-            if guided_hint is not None:
+            if guided_hint_0 is not None:
                 h = module(h, emb, context)
-                h += guided_hint
-                guided_hint = None  # only add the hint once
+                hints[1]=module(hints[1], emb, context)
+                # 这里 + 两次 对吗？
+                # + 表示 逐元素相加                  
+                h = h + guided_hint_0 + hints[1]
+                guided_hint_0 = None # 只在第一次迭代时使用提示图像
             else:
                 h = module(h, emb, context)
             outs.append(zero_conv(h, emb, context))
 
+        # 通过中间块处理输入
         h = self.middle_block(h, emb, context)
         outs.append(self.middle_block_out(h, emb, context))
 
+        # 函数返回的 outs 是一个包含多个特征图 (feature maps) 的列表
+        # 这些特征图是在模型的不同层次上生成的
         return outs
-
 
 class ControlLDM(LatentDiffusion):
 
@@ -317,29 +343,39 @@ class ControlLDM(LatentDiffusion):
         self.control_scales = [1.0] * 13
 
     @torch.no_grad()
-    # 传入batch batch有 jpg, txt, hint 
     def get_input(self, batch, k, bs=None, *args, **kwargs):
-        x, c = super().get_input(batch, self.first_stage_key, *args, **kwargs) 
-        control = batch[self.control_key]  # control没有过多的处理
+        x, c = super().get_input(batch, self.first_stage_key, *args, **kwargs) #z 和 c
+        control = batch[self.control_key]
         if bs is not None:
             control = control[:bs]
-        control = control.to(self.device)
-        control = einops.rearrange(control, 'b h w c -> b c h w')
-        control = control.to(memory_format=torch.contiguous_format).float()
-        return x, dict(c_crossattn=[c], c_concat=[control]) 
+        control[0] = control[0].to(self.device)
+        control[1] = control[1].to(self.device)
+        control[0] = einops.rearrange(control[0], 'b h w c -> b c h w')
+        control[1] = einops.rearrange(control[1], 'b h w c -> b c h w')
+        control[0] = control[0].to(memory_format=torch.contiguous_format).float()
+        control[1] = control[1].to(memory_format=torch.contiguous_format).float()
+        return x, dict(c_crossattn=[c], c_concat=[control])
 
-    def apply_model(self, x_noisy, t, cond, *args, **kwargs):
+    def apply_model(self, x_start, x_noisy, t, cond, *args, **kwargs):  # cond
         assert isinstance(cond, dict)
-        diffusion_model = self.model.diffusion_model
+        diffusion_model = self.model.diffusion_model #  是controlunetmodel
 
-        cond_txt = torch.cat(cond['c_crossattn'], 1)
+        cond_txt = torch.cat([cond['c_crossattn'][0]], 1)  # prompt
 
-        if cond['c_concat'] is None:
+        if cond['c_concat'] is None:  # control 前景和全景
             eps = diffusion_model(x=x_noisy, timesteps=t, context=cond_txt, control=None, only_mid_control=self.only_mid_control)
-        else:
-            # print("shape of cond['c_concat'][0]: ", cond['c_concat'][0].shape)
-            # print("shape of torch.cat(cond['c_concat'], 1): ", torch.cat(cond['c_concat'], 1).shape)
-            control = self.control_model(x=x_noisy, hint=torch.cat(cond['c_concat'], 1), timesteps=t, context=cond_txt)
+            # 返回eps为噪声
+        else:  # control 前景和全景   执行else分支
+            # control_model:cldm.cldm.ControlNet  传：x_noisy steps个带噪图像  hint:前景control  timesteps:steps  context:cond_txt即prompt
+            # print("shape of cond['c_concat'][0][0]: ", cond['c_concat'][0][0].shape)
+            # print("shape of torch.cat(cond['c_concat'], 1): ", torch.cat(cond['c_concat'][0], 1).shape)
+            
+            hint1=torch.cat([cond['c_concat'][0][0]], 1)
+            hint2=x_start[1]
+            hints=[]
+            hints.append(hint1)
+            hints.append(hint2)
+            control = self.control_model(x=x_noisy, hints=hints, timesteps=t, context=cond_txt)  
             control = [c * scale for c, scale in zip(control, self.control_scales)]
             eps = diffusion_model(x=x_noisy, timesteps=t, context=cond_txt, control=control, only_mid_control=self.only_mid_control)
 
@@ -350,7 +386,6 @@ class ControlLDM(LatentDiffusion):
         return self.get_learned_conditioning([""] * N)
 
     @torch.no_grad()
-    # 传入batch
     def log_images(self, batch, N=4, n_row=2, sample=False, ddim_steps=50, ddim_eta=0.0, return_keys=None,
                    quantize_denoised=True, inpaint=True, plot_denoise_rows=False, plot_progressive_rows=True,
                    plot_diffusion_rows=False, unconditional_guidance_scale=9.0, unconditional_guidance_label=None,
@@ -360,18 +395,20 @@ class ControlLDM(LatentDiffusion):
 
         log = dict()
         z, c = self.get_input(batch, self.first_stage_key, bs=N)
-        c_cat, c = c["c_concat"][0][:N], c["c_crossattn"][0][:N]
-        N = min(z.shape[0], N)
-        n_row = min(z.shape[0], n_row)
-        log["reconstruction"] = self.decode_first_stage(z)
+        c["c_concat"][0][0]=einops.rearrange(c["c_concat"][0][0], 'b w c h -> b c w h')
+        c["c_concat"][0][1]=einops.rearrange(c["c_concat"][0][0], 'b w c h -> b c w h')
+        c_cat, c = c["c_concat"][0][0][:N], c["c_crossattn"][0][:N]  #改[0]
+        N = min(z[0].shape[0], N)
+        n_row = min(z[0].shape[0], n_row)
+        log["reconstruction"] = self.decode_first_stage(z[0])
         log["control"] = c_cat * 2.0 - 1.0
         zhongjian=batch[self.cond_stage_key]
-        log["conditioning"] = log_txt_as_img((512, 512), batch[self.cond_stage_key], size=16)
+        log["conditioning"] = log_txt_as_img((512, 512), list(batch[self.cond_stage_key][0]), size=16)
 
         if plot_diffusion_rows:
             # get diffusion row
             diffusion_row = list()
-            z_start = z[:n_row]
+            z_start = z[0][:n_row]
             for t in range(self.num_timesteps):
                 if t % self.log_every_t == 0 or t == self.num_timesteps - 1:
                     t = repeat(torch.tensor([t]), '1 -> b', b=n_row)

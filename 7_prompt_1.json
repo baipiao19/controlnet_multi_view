@@ -1,0 +1,1822 @@
+[
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/00001d11_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/00001d11_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/00001d11_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/00001d11_008.jpg"
+        ],
+        "prompt": [
+            "a black and gold electric stove on a counter",
+            "a black and gold electric stove on a counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/00001d11_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/00001d11_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/00001d11_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/00001d11_022.jpg"
+        ],
+        "prompt": [
+            "a black and gold electric stove on a counter",
+            "a black and gold electric stove on a counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300225c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300225c_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300225c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300225c_009.jpg"
+        ],
+        "prompt": [
+            "a portable electric stove on a tile floor",
+            "a portable electric stove on a tile floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300225c_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300225c_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300225c_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300225c_025.jpg"
+        ],
+        "prompt": [
+            "a portable electric stove on a tile floor",
+            "a portable electric stove on a tile floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300a0b6_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300a0b6_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300a0b6_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300a0b6_009.jpg"
+        ],
+        "prompt": [
+            "a microwave sitting on top of a refrigerator",
+            "a microwave sitting on top of a refrigerator"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300a0b6_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0300a0b6_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300a0b6_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0300a0b6_025.jpg"
+        ],
+        "prompt": [
+            "a microwave sitting on top of a refrigerator",
+            "a microwave sitting on top of a refrigerator"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030121be_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030121be_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030121be_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030121be_008.jpg"
+        ],
+        "prompt": [
+            "a microwave oven is sitting on the ground next to a wall",
+            "a microwave oven is sitting on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030121be_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030121be_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030121be_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030121be_022.jpg"
+        ],
+        "prompt": [
+            "a microwave oven is sitting on the ground next to a wall",
+            "a microwave oven is sitting on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030143cd_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030143cd_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030143cd_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030143cd_008.jpg"
+        ],
+        "prompt": [
+            "a small stove with a hose attached to it",
+            "a small stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030143cd_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030143cd_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030143cd_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030143cd_022.jpg"
+        ],
+        "prompt": [
+            "a small stove with a hose attached to it",
+            "a small stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030147e2_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030147e2_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030147e2_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030147e2_009.jpg"
+        ],
+        "prompt": [
+            "a blue and red gas stove on a shelf",
+            "a blue and red gas stove on a shelf"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030147e2_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/030147e2_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030147e2_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/030147e2_025.jpg"
+        ],
+        "prompt": [
+            "a blue and red gas stove on a shelf",
+            "a blue and red gas stove on a shelf"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04002dd2_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04002dd2_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04002dd2_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04002dd2_008.jpg"
+        ],
+        "prompt": [
+            "a small gas stove with orange hose attached to it",
+            "a small gas stove with orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04002dd2_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04002dd2_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04002dd2_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04002dd2_022.jpg"
+        ],
+        "prompt": [
+            "a small gas stove with orange hose attached to it",
+            "a small gas stove with orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0400864c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0400864c_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0400864c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0400864c_008.jpg"
+        ],
+        "prompt": [
+            "a suitcase is leaning against a wall",
+            "a suitcase is leaning against a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0400864c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0400864c_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0400864c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0400864c_022.jpg"
+        ],
+        "prompt": [
+            "a suitcase is leaning against a wall",
+            "a suitcase is leaning against a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04014bea_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04014bea_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04014bea_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04014bea_008.jpg"
+        ],
+        "prompt": [
+            "a red bucket with a handle on the floor",
+            "a red bucket with a handle on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04014bea_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04014bea_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04014bea_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04014bea_022.jpg"
+        ],
+        "prompt": [
+            "a red bucket with a handle on the floor",
+            "a red bucket with a handle on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04015a0e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04015a0e_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04015a0e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04015a0e_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04015a0e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04015a0e_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04015a0e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04015a0e_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04016fc0_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04016fc0_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04016fc0_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04016fc0_008.jpg"
+        ],
+        "prompt": [
+            "a red electric fryer with a black lid",
+            "a red electric fryer with a black lid"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04016fc0_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/04016fc0_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04016fc0_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/04016fc0_022.jpg"
+        ],
+        "prompt": [
+            "a red electric fryer with a black lid",
+            "a red electric fryer with a black lid"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/050012da_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/050012da_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/050012da_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/050012da_008.jpg"
+        ],
+        "prompt": [
+            "a small stove with a hose attached to it",
+            "a small stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/050012da_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/050012da_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/050012da_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/050012da_022.jpg"
+        ],
+        "prompt": [
+            "a small stove with a hose attached to it",
+            "a small stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500aa3e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500aa3e_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500aa3e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500aa3e_008.jpg"
+        ],
+        "prompt": [
+            "a black and gold portable stereo sitting on top of a wooden floor",
+            "a black and gold portable stereo sitting on top of a wooden floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500aa3e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500aa3e_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500aa3e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500aa3e_022.jpg"
+        ],
+        "prompt": [
+            "a black and gold portable stereo sitting on top of a wooden floor",
+            "a black and gold portable stereo sitting on top of a wooden floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500ee1b_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500ee1b_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500ee1b_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500ee1b_008.jpg"
+        ],
+        "prompt": [
+            "a gas stove with orange hose attached to it",
+            "a gas stove with orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500ee1b_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0500ee1b_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500ee1b_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0500ee1b_022.jpg"
+        ],
+        "prompt": [
+            "a gas stove with orange hose attached to it",
+            "a gas stove with orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/07009e58_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/07009e58_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/07009e58_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/07009e58_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on the floor next to a wall",
+            "a small electric stove on the floor next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/07009e58_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/07009e58_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/07009e58_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/07009e58_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on the floor next to a wall",
+            "a small electric stove on the floor next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/080064e7_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/080064e7_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/080064e7_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/080064e7_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on a table",
+            "a small electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/080064e7_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/080064e7_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/080064e7_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/080064e7_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on a table",
+            "a small electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0800ac7c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0800ac7c_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0800ac7c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0800ac7c_008.jpg"
+        ],
+        "prompt": [
+            "a black and gold portable induction cooker on the floor",
+            "a black and gold portable induction cooker on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0800ac7c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0800ac7c_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0800ac7c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0800ac7c_022.jpg"
+        ],
+        "prompt": [
+            "a black and gold portable induction cooker on the floor",
+            "a black and gold portable induction cooker on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/08016137_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/08016137_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/08016137_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/08016137_008.jpg"
+        ],
+        "prompt": [
+            "a gas stove with orange cord on the ground",
+            "a gas stove with orange cord on the ground"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/08016137_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/08016137_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/08016137_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/08016137_022.jpg"
+        ],
+        "prompt": [
+            "a gas stove with orange cord on the ground",
+            "a gas stove with orange cord on the ground"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/090127d6_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/090127d6_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/090127d6_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/090127d6_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a white counter",
+            "a small electric stove on top of a white counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/090127d6_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/090127d6_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/090127d6_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/090127d6_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a white counter",
+            "a small electric stove on top of a white counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a001225_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a001225_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a001225_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a001225_008.jpg"
+        ],
+        "prompt": [
+            "a gas stove with a banana on it",
+            "a gas stove with a banana on it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a001225_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a001225_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a001225_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a001225_022.jpg"
+        ],
+        "prompt": [
+            "a gas stove with a banana on it",
+            "a gas stove with a banana on it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a00506a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a00506a_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a00506a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a00506a_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a00506a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a00506a_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a00506a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a00506a_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a007b0f_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a007b0f_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a007b0f_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a007b0f_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a wooden table",
+            "a small electric stove on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a007b0f_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0a007b0f_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a007b0f_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0a007b0f_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a wooden table",
+            "a small electric stove on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b003328_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b003328_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b003328_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b003328_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove sitting on a counter",
+            "a small portable electric stove sitting on a counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b003328_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b003328_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b003328_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b003328_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove sitting on a counter",
+            "a small portable electric stove sitting on a counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00610f_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00610f_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00610f_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00610f_008.jpg"
+        ],
+        "prompt": [
+            "a black and brown laptop is sitting on the ground",
+            "a black and brown laptop is sitting on the ground"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00610f_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00610f_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00610f_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00610f_022.jpg"
+        ],
+        "prompt": [
+            "a black and brown laptop is sitting on the ground",
+            "a black and brown laptop is sitting on the ground"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b006e74_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b006e74_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b006e74_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b006e74_008.jpg"
+        ],
+        "prompt": [
+            "a small gas stove with a yellow hose attached to it",
+            "a small gas stove with a yellow hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b006e74_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b006e74_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b006e74_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b006e74_022.jpg"
+        ],
+        "prompt": [
+            "a small gas stove with a yellow hose attached to it",
+            "a small gas stove with a yellow hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00a73e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00a73e_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00a73e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00a73e_008.jpg"
+        ],
+        "prompt": [
+            "a stove on a table with a bowl of food",
+            "a stove on a table with a bowl of food"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00a73e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00a73e_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00a73e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00a73e_022.jpg"
+        ],
+        "prompt": [
+            "a stove on a table with a bowl of food",
+            "a stove on a table with a bowl of food"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00c883_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00c883_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00c883_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00c883_008.jpg"
+        ],
+        "prompt": [
+            "a black portable electronic device sitting on top of a wooden table",
+            "a black portable electronic device sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00c883_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00c883_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00c883_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00c883_022.jpg"
+        ],
+        "prompt": [
+            "a black portable electronic device sitting on top of a wooden table",
+            "a black portable electronic device sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00ca15_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00ca15_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00ca15_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00ca15_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove sitting on top of a counter",
+            "a small electric stove sitting on top of a counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00ca15_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b00ca15_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00ca15_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b00ca15_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove sitting on top of a counter",
+            "a small electric stove sitting on top of a counter"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b0101ef_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b0101ef_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b0101ef_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b0101ef_009.jpg"
+        ],
+        "prompt": [
+            "a blue and orange gas stove sitting on a stand",
+            "a blue and orange gas stove sitting on a stand"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b0101ef_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b0101ef_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b0101ef_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b0101ef_025.jpg"
+        ],
+        "prompt": [
+            "a blue and orange gas stove sitting on a stand",
+            "a blue and orange gas stove sitting on a stand"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b011a8e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b011a8e_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b011a8e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b011a8e_008.jpg"
+        ],
+        "prompt": [
+            "a large pot sitting on top of a wooden table",
+            "a large pot sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b011a8e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0b011a8e_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b011a8e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0b011a8e_022.jpg"
+        ],
+        "prompt": [
+            "a large pot sitting on top of a wooden table",
+            "a large pot sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0c014b4b_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0c014b4b_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0c014b4b_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0c014b4b_009.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0c014b4b_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0c014b4b_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0c014b4b_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0c014b4b_025.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d000bba_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d000bba_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d000bba_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d000bba_008.jpg"
+        ],
+        "prompt": [
+            "a gas stove with a hose attached to it",
+            "a gas stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d000bba_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d000bba_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d000bba_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d000bba_022.jpg"
+        ],
+        "prompt": [
+            "a gas stove with a hose attached to it",
+            "a gas stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d010a59_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d010a59_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d010a59_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d010a59_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on a table",
+            "a small portable electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d010a59_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0d010a59_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d010a59_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0d010a59_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on a table",
+            "a small portable electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e0030af_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e0030af_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e0030af_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e0030af_008.jpg"
+        ],
+        "prompt": [
+            "used induction cooktop for sale in dubai, uae",
+            "used induction cooktop for sale in dubai, uae"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e0030af_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e0030af_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e0030af_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e0030af_022.jpg"
+        ],
+        "prompt": [
+            "used induction cooktop for sale in dubai, uae",
+            "used induction cooktop for sale in dubai, uae"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e00de94_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e00de94_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e00de94_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e00de94_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a bed",
+            "a small electric stove on top of a bed"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e00de94_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e00de94_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e00de94_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e00de94_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a bed",
+            "a small electric stove on top of a bed"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e012e37_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e012e37_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e012e37_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e012e37_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on a table",
+            "a small portable electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e012e37_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e012e37_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e012e37_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e012e37_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on a table",
+            "a small portable electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e015d7a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e015d7a_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e015d7a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e015d7a_008.jpg"
+        ],
+        "prompt": [
+            "a gas stove with orange and blue hose on top",
+            "a gas stove with orange and blue hose on top"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e015d7a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0e015d7a_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e015d7a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0e015d7a_022.jpg"
+        ],
+        "prompt": [
+            "a gas stove with orange and blue hose on top",
+            "a gas stove with orange and blue hose on top"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0f012070_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0f012070_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0f012070_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0f012070_008.jpg"
+        ],
+        "prompt": [
+            "a black metal basket on a shelf with a black candle",
+            "a black metal basket on a shelf with a black candle"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0f012070_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/0f012070_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0f012070_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/0f012070_022.jpg"
+        ],
+        "prompt": [
+            "a black metal basket on a shelf with a black candle",
+            "a black metal basket on a shelf with a black candle"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10003a49_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10003a49_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10003a49_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10003a49_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a wooden table",
+            "a small electric stove on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10003a49_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10003a49_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10003a49_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10003a49_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on top of a wooden table",
+            "a small electric stove on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10005faa_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10005faa_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10005faa_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10005faa_009.jpg"
+        ],
+        "prompt": [
+            "a gas stove with a hose attached to it",
+            "a gas stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10005faa_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10005faa_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10005faa_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10005faa_025.jpg"
+        ],
+        "prompt": [
+            "a gas stove with a hose attached to it",
+            "a gas stove with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10009ed8_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10009ed8_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10009ed8_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10009ed8_008.jpg"
+        ],
+        "prompt": [
+            "a small stove with an orange hose attached to it",
+            "a small stove with an orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10009ed8_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/10009ed8_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10009ed8_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/10009ed8_022.jpg"
+        ],
+        "prompt": [
+            "a small stove with an orange hose attached to it",
+            "a small stove with an orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1000cee2_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1000cee2_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1000cee2_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1000cee2_008.jpg"
+        ],
+        "prompt": [
+            "a bowl with a spoon and a knife on a shelf",
+            "a bowl with a spoon and a knife on a shelf"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1000cee2_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1000cee2_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1000cee2_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1000cee2_022.jpg"
+        ],
+        "prompt": [
+            "a bowl with a spoon and a knife on a shelf",
+            "a bowl with a spoon and a knife on a shelf"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/100146b9_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/100146b9_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/100146b9_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/100146b9_008.jpg"
+        ],
+        "prompt": [
+            "a small stove with orange wires on top of it",
+            "a small stove with orange wires on top of it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/100146b9_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/100146b9_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/100146b9_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/100146b9_022.jpg"
+        ],
+        "prompt": [
+            "a small stove with orange wires on top of it",
+            "a small stove with orange wires on top of it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1100d979_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1100d979_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1100d979_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1100d979_008.jpg"
+        ],
+        "prompt": [
+            "a black and white electric stove on a table",
+            "a black and white electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1100d979_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1100d979_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1100d979_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1100d979_022.jpg"
+        ],
+        "prompt": [
+            "a black and white electric stove on a table",
+            "a black and white electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12003587_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12003587_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12003587_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12003587_008.jpg"
+        ],
+        "prompt": [
+            "a broken laptop is sitting on the ground next to a wall",
+            "a broken laptop is sitting on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12003587_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12003587_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12003587_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12003587_022.jpg"
+        ],
+        "prompt": [
+            "a broken laptop is sitting on the ground next to a wall",
+            "a broken laptop is sitting on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1200cf83_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1200cf83_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1200cf83_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1200cf83_008.jpg"
+        ],
+        "prompt": [
+            "a broken electric stove on the floor",
+            "a broken electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1200cf83_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1200cf83_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1200cf83_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1200cf83_022.jpg"
+        ],
+        "prompt": [
+            "a broken electric stove on the floor",
+            "a broken electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1201585a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1201585a_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1201585a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1201585a_008.jpg"
+        ],
+        "prompt": [
+            "vintage gas stove with orange cord",
+            "vintage gas stove with orange cord"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1201585a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1201585a_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1201585a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1201585a_022.jpg"
+        ],
+        "prompt": [
+            "vintage gas stove with orange cord",
+            "vintage gas stove with orange cord"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12016ded_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12016ded_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12016ded_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12016ded_008.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on the floor next to a refrigerator",
+            "a small electric stove on the floor next to a refrigerator"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12016ded_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/12016ded_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12016ded_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/12016ded_022.jpg"
+        ],
+        "prompt": [
+            "a small electric stove on the floor next to a refrigerator",
+            "a small electric stove on the floor next to a refrigerator"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300077c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300077c_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300077c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300077c_008.jpg"
+        ],
+        "prompt": [
+            "a gas stove on the floor with a hose attached to it",
+            "a gas stove on the floor with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300077c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300077c_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300077c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300077c_022.jpg"
+        ],
+        "prompt": [
+            "a gas stove on the floor with a hose attached to it",
+            "a gas stove on the floor with a hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300220c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300220c_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300220c_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300220c_008.jpg"
+        ],
+        "prompt": [
+            "a small stove sitting on top of a wooden table",
+            "a small stove sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300220c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300220c_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300220c_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300220c_022.jpg"
+        ],
+        "prompt": [
+            "a small stove sitting on top of a wooden table",
+            "a small stove sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/130024cf_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/130024cf_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/130024cf_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/130024cf_008.jpg"
+        ],
+        "prompt": [
+            "a black and white microwave sitting on top of a wooden table",
+            "a black and white microwave sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/130024cf_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/130024cf_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/130024cf_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/130024cf_022.jpg"
+        ],
+        "prompt": [
+            "a black and white microwave sitting on top of a wooden table",
+            "a black and white microwave sitting on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300cb10_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300cb10_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300cb10_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300cb10_008.jpg"
+        ],
+        "prompt": [
+            "a broken laptop on the ground next to a wall",
+            "a broken laptop on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300cb10_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300cb10_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300cb10_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300cb10_022.jpg"
+        ],
+        "prompt": [
+            "a broken laptop on the ground next to a wall",
+            "a broken laptop on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300f647_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300f647_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300f647_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300f647_008.jpg"
+        ],
+        "prompt": [
+            "a small gas stove with orange and black wires",
+            "a small gas stove with orange and black wires"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300f647_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1300f647_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300f647_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1300f647_022.jpg"
+        ],
+        "prompt": [
+            "a small gas stove with orange and black wires",
+            "a small gas stove with orange and black wires"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140142b8_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140142b8_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140142b8_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140142b8_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric cooker on a wooden table",
+            "a small portable electric cooker on a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140142b8_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140142b8_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140142b8_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140142b8_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric cooker on a wooden table",
+            "a small portable electric cooker on a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140175cf_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140175cf_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140175cf_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140175cf_008.jpg"
+        ],
+        "prompt": [
+            "an old rusty metal bucket sitting on the ground",
+            "an old rusty metal bucket sitting on the ground"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140175cf_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/140175cf_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140175cf_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/140175cf_022.jpg"
+        ],
+        "prompt": [
+            "an old rusty metal bucket sitting on the ground",
+            "an old rusty metal bucket sitting on the ground"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017ebe_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017ebe_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017ebe_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017ebe_008.jpg"
+        ],
+        "prompt": [
+            "a portable electronic device on top of a wooden table",
+            "a portable electronic device on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017ebe_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017ebe_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017ebe_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017ebe_022.jpg"
+        ],
+        "prompt": [
+            "a portable electronic device on top of a wooden table",
+            "a portable electronic device on top of a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017fcb_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017fcb_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017fcb_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017fcb_009.jpg"
+        ],
+        "prompt": [
+            "a small stove with an orange cord attached to it",
+            "a small stove with an orange cord attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017fcb_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/14017fcb_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017fcb_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/14017fcb_025.jpg"
+        ],
+        "prompt": [
+            "a small stove with an orange cord attached to it",
+            "a small stove with an orange cord attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/150117d3_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/150117d3_009.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/150117d3_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/150117d3_009.jpg"
+        ],
+        "prompt": [
+            "a small stove with an orange hose attached to it",
+            "a small stove with an orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/150117d3_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/150117d3_025.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/150117d3_017.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/150117d3_025.jpg"
+        ],
+        "prompt": [
+            "a small stove with an orange hose attached to it",
+            "a small stove with an orange hose attached to it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/15012c4f_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/15012c4f_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/15012c4f_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/15012c4f_008.jpg"
+        ],
+        "prompt": [
+            "a broken suitcase lying on the ground next to a wall",
+            "a broken suitcase lying on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/15012c4f_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/15012c4f_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/15012c4f_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/15012c4f_022.jpg"
+        ],
+        "prompt": [
+            "a broken suitcase lying on the ground next to a wall",
+            "a broken suitcase lying on the ground next to a wall"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1501622a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1501622a_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1501622a_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1501622a_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on a wooden table",
+            "a small portable electric stove on a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1501622a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1501622a_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1501622a_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1501622a_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on a wooden table",
+            "a small portable electric stove on a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1b00d1e9_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1b00d1e9_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1b00d1e9_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1b00d1e9_008.jpg"
+        ],
+        "prompt": [
+            "a red box with a key on top of it",
+            "a red box with a key on top of it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1b00d1e9_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/1b00d1e9_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1b00d1e9_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/1b00d1e9_022.jpg"
+        ],
+        "prompt": [
+            "a red box with a key on top of it",
+            "a red box with a key on top of it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300995e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300995e_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300995e_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300995e_008.jpg"
+        ],
+        "prompt": [
+            "a black and white electric stove on a table",
+            "a black and white electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300995e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300995e_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300995e_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300995e_022.jpg"
+        ],
+        "prompt": [
+            "a black and white electric stove on a table",
+            "a black and white electric stove on a table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300d657_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300d657_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300d657_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300d657_008.jpg"
+        ],
+        "prompt": [
+            "a small black induction cooktop on a wooden table",
+            "a small black induction cooktop on a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300d657_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300d657_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300d657_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300d657_022.jpg"
+        ],
+        "prompt": [
+            "a small black induction cooktop on a wooden table",
+            "a small black induction cooktop on a wooden table"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300e831_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300e831_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300e831_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300e831_008.jpg"
+        ],
+        "prompt": [
+            "a black box with a picture of a person on it",
+            "a black box with a picture of a person on it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300e831_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/4300e831_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300e831_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/4300e831_022.jpg"
+        ],
+        "prompt": [
+            "a black box with a picture of a person on it",
+            "a black box with a picture of a person on it"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/43012741_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/43012741_008.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/43012741_001.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/43012741_008.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    },
+    {
+        "source": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/43012741_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_cropped_*4_1/43012741_022.jpg"
+        ],
+        "target": [
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/43012741_015.jpg",
+            "/home/ubuntu/LabData/hanx/MVImgNet/MVImgNet_by_categories/7_foreground/43012741_022.jpg"
+        ],
+        "prompt": [
+            "a small portable electric stove on the floor",
+            "a small portable electric stove on the floor"
+        ]
+    }
+]
