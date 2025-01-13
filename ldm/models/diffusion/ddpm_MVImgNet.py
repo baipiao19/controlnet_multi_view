@@ -25,7 +25,7 @@ from ldm.modules.ema import LitEma
 from ldm.modules.distributions.distributions import normal_kl, DiagonalGaussianDistribution
 from ldm.models.autoencoder import IdentityFirstStage, AutoencoderKL
 from ldm.modules.diffusionmodules.util import make_beta_schedule, extract_into_tensor, noise_like
-from ldm.models.diffusion.ddim import DDIMSampler
+from ldm.models.diffusion.ddim_MVImgNet import DDIMSampler
 
 
 __conditioning_keys__ = {'concat': 'c_concat',
@@ -907,6 +907,8 @@ class LatentDiffusion(DDPM):
     def p_losses(self, x_start, cond, t, noise=None):
         noise = default(noise, lambda: torch.randn_like(x_start[0])) # 随机噪声
         x_noisy = self.q_sample(x_start=x_start[0], t=t, noise=noise) # 采样
+        cond['c_crossattn']=cond['c_crossattn'][0]
+        cond['c_concat']=cond['c_concat'][0][0]
         model_output = self.apply_model(x_start, x_noisy, t, cond) #  加了x_start参数
 
         loss_dict = {}

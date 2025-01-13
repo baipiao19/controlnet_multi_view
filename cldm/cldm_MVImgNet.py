@@ -16,7 +16,7 @@ from ldm.modules.attention import SpatialTransformer
 from ldm.modules.diffusionmodules.openaimodel import UNetModel, TimestepEmbedSequential, ResBlock, Downsample, AttentionBlock
 from ldm.models.diffusion.ddpm_MVImgNet import LatentDiffusion
 from ldm.util import log_txt_as_img, exists, instantiate_from_config
-from ldm.models.diffusion.ddim import DDIMSampler
+from ldm.models.diffusion.ddim_MVImgNet import DDIMSampler
 
 
 class ControlledUnetModel(UNetModel):
@@ -303,9 +303,9 @@ class ControlNet(nn.Module):
         # outs.append(self.middle_block_out(h, emb, context))
 
         # return outs
-        print("shape of hints[0]: ", hints[0].shape)
-        print("shape of emb: ", emb.shape)
-        print("shape of context: ", context.shape)
+        # print("shape of hints[0]: ", hints[0].shape)
+        # print("shape of emb: ", emb.shape)
+        # print("shape of context: ", context.shape)
 
         guided_hint_0 = self.input_hint_block(hints[0], emb, context) 
 
@@ -316,7 +316,9 @@ class ControlNet(nn.Module):
         for module, zero_conv in zip(self.input_blocks, self.zero_convs):
             if guided_hint_0 is not None:
                 h = module(h, emb, context)
-                hints[1]=module(hints[1], emb, context)
+                hints[1]=module(hints[1], emb, context)  #
+                if guided_hint_0.shape[0] == 8:
+                    hints[1] = repeat(hints[1], 'b ... -> (2 b) ...')
                 # 这里 + 两次 对吗？
                 # + 表示 逐元素相加                  
                 h = h + guided_hint_0 + hints[1]
@@ -360,7 +362,7 @@ class ControlLDM(LatentDiffusion):
         assert isinstance(cond, dict)
         diffusion_model = self.model.diffusion_model #  是controlunetmodel
 
-        cond_txt = torch.cat([cond['c_crossattn'][0]], 1)  # prompt
+        cond_txt = torch.cat([cond['c_crossattn']], 1)  # prompt
 
         if cond['c_concat'] is None:  # control 前景和全景
             eps = diffusion_model(x=x_noisy, timesteps=t, context=cond_txt, control=None, only_mid_control=self.only_mid_control)
@@ -370,12 +372,28 @@ class ControlLDM(LatentDiffusion):
             # print("shape of cond['c_concat'][0][0]: ", cond['c_concat'][0][0].shape)
             # print("shape of torch.cat(cond['c_concat'], 1): ", torch.cat(cond['c_concat'][0], 1).shape)
             
-            hint1=torch.cat([cond['c_concat'][0][0]], 1)
+            hint1=torch.cat([cond['c_concat']], 1)
             hint2=x_start[1]
             hints=[]
             hints.append(hint1)
             hints.append(hint2)
             control = self.control_model(x=x_noisy, hints=hints, timesteps=t, context=cond_txt)  
+            control = [c * scale for c, scale in zip(control, self.control_scales)]
+            eps = diffusion_model(x=x_noisy, timesteps=t, context=cond_txt, control=control, only_mid_control=self.only_mid_control)
+
+        return eps
+    def apply_model_1(self, x_noisy, t, cond, *args, **kwargs):
+        assert isinstance(cond, dict)
+        diffusion_model = self.model.diffusion_model
+
+        cond_txt = torch.cat(cond['c_crossattn'], 1)
+
+        if cond['c_concat'] is None:
+            eps = diffusion_model(x=x_noisy, timesteps=t, context=cond_txt, control=None, only_mid_control=self.only_mid_control)
+        else:
+            # print("shape of cond['c_concat'][0]: ", cond['c_concat'][0].shape)
+            # print("shape of torch.cat(cond['c_concat'], 1): ", torch.cat(cond['c_concat'], 1).shape)
+            control = self.control_model(x=x_noisy, hint=torch.cat(cond['c_concat'], 1), timesteps=t, context=cond_txt)
             control = [c * scale for c, scale in zip(control, self.control_scales)]
             eps = diffusion_model(x=x_noisy, timesteps=t, context=cond_txt, control=control, only_mid_control=self.only_mid_control)
 
@@ -397,12 +415,12 @@ class ControlLDM(LatentDiffusion):
         z, c = self.get_input(batch, self.first_stage_key, bs=N)
         c["c_concat"][0][0]=einops.rearrange(c["c_concat"][0][0], 'b w c h -> b c w h')
         c["c_concat"][0][1]=einops.rearrange(c["c_concat"][0][0], 'b w c h -> b c w h')
-        c_cat, c = c["c_concat"][0][0][:N], c["c_crossattn"][0][:N]  #改[0]
+        c_cat, c = c["c_concat"][0][0][:N], c["c_crossattn"][:N]  #改[0]  一致
         N = min(z[0].shape[0], N)
         n_row = min(z[0].shape[0], n_row)
         log["reconstruction"] = self.decode_first_stage(z[0])
         log["control"] = c_cat * 2.0 - 1.0
-        zhongjian=batch[self.cond_stage_key]
+        # zhongjian=batch[self.cond_stage_key]
         log["conditioning"] = log_txt_as_img((512, 512), list(batch[self.cond_stage_key][0]), size=16)
 
         if plot_diffusion_rows:
@@ -438,7 +456,8 @@ class ControlLDM(LatentDiffusion):
             uc_cross = self.get_unconditional_conditioning(N)
             uc_cat = c_cat  # torch.zeros_like(c_cat)
             uc_full = {"c_concat": [uc_cat], "c_crossattn": [uc_cross]}
-            samples_cfg, _ = self.sample_log(cond={"c_concat": [c_cat], "c_crossattn": [c]},
+            # 除了z，其他都传入单独的
+            samples_cfg, _ = self.sample_log(z=z,cond={"c_concat": [c_cat], "c_crossattn": c},
                                              batch_size=N, ddim=use_ddim,
                                              ddim_steps=ddim_steps, eta=ddim_eta,
                                              unconditional_guidance_scale=unconditional_guidance_scale,
@@ -450,11 +469,11 @@ class ControlLDM(LatentDiffusion):
         return log
 
     @torch.no_grad()
-    def sample_log(self, cond, batch_size, ddim, ddim_steps, **kwargs):
+    def sample_log(self, z, cond, batch_size, ddim, ddim_steps, **kwargs):
         ddim_sampler = DDIMSampler(self)
         b, c, h, w = cond["c_concat"][0].shape
         shape = (self.channels, h // 8, w // 8)
-        samples, intermediates = ddim_sampler.sample(ddim_steps, batch_size, shape, cond, verbose=False, **kwargs)
+        samples, intermediates = ddim_sampler.sample(ddim_steps, batch_size, shape,z, cond, verbose=False, **kwargs)
         return samples, intermediates
 
     def configure_optimizers(self):

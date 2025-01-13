@@ -9,7 +9,7 @@ import torchvision.transforms as transforms
 
 
 # Configs
-resume_path = './models/control_sd21_ini.ckpt'
+resume_path = '/home/ubuntu/LabData/xiaoyw/ControlNet/models/control_sd21_ini.ckpt'
 batch_size = 4
 logger_freq = 300
 learning_rate = 1e-5
@@ -18,7 +18,7 @@ only_mid_control = False
 
 
 # First use cpu to load models. Pytorch Lightning will automatically move it to GPUs.
-model = create_model('./models/cldm_v21_MVImgNet.yaml').cpu()
+model = create_model('/home/ubuntu/LabData/xiaoyw/ControlNet/models/cldm_v21_MVImgNet.yaml').cpu()
 model.load_state_dict(load_state_dict(resume_path, location='cpu'))
 model.learning_rate = learning_rate
 model.sd_locked = sd_locked

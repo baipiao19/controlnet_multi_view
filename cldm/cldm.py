@@ -359,14 +359,14 @@ class ControlLDM(LatentDiffusion):
         use_ddim = ddim_steps is not None
 
         log = dict()
-        z, c = self.get_input(batch, self.first_stage_key, bs=N)
-        c_cat, c = c["c_concat"][0][:N], c["c_crossattn"][0][:N]
+        z, c = self.get_input(batch, self.first_stage_key, bs=N)  #
+        c_cat, c = c["c_concat"][0][:N], c["c_crossattn"][0][:N]  #
         N = min(z.shape[0], N)
         n_row = min(z.shape[0], n_row)
-        log["reconstruction"] = self.decode_first_stage(z)
-        log["control"] = c_cat * 2.0 - 1.0
-        zhongjian=batch[self.cond_stage_key]
-        log["conditioning"] = log_txt_as_img((512, 512), batch[self.cond_stage_key], size=16)
+        log["reconstruction"] = self.decode_first_stage(z) #转到latent
+        log["control"] = c_cat * 2.0 - 1.0 # control
+
+        log["conditioning"] = log_txt_as_img((512, 512), batch[self.cond_stage_key], size=16)  #prompt
 
         if plot_diffusion_rows:
             # get diffusion row
@@ -397,7 +397,7 @@ class ControlLDM(LatentDiffusion):
                 denoise_grid = self._get_denoise_row_from_list(z_denoise_row)
                 log["denoise_row"] = denoise_grid
 
-        if unconditional_guidance_scale > 1.0:
+        if unconditional_guidance_scale > 1.0:   # todo
             uc_cross = self.get_unconditional_conditioning(N)
             uc_cat = c_cat  # torch.zeros_like(c_cat)
             uc_full = {"c_concat": [uc_cat], "c_crossattn": [uc_cross]}
@@ -406,7 +406,7 @@ class ControlLDM(LatentDiffusion):
                                              ddim_steps=ddim_steps, eta=ddim_eta,
                                              unconditional_guidance_scale=unconditional_guidance_scale,
                                              unconditional_conditioning=uc_full,
-                                             )
+                                             ) # todo
             x_samples_cfg = self.decode_first_stage(samples_cfg)
             log[f"samples_cfg_scale_{unconditional_guidance_scale:.2f}"] = x_samples_cfg
 
